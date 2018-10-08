@@ -14,6 +14,7 @@ RUN apk --update add \
   docker \
   py-pip \
   openssh-client \
+  git \
   && chmod +x /usr/local/bin/wrapdocker \
   && rm -rf /var/cache/apk/*
 
