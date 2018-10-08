@@ -13,6 +13,7 @@ RUN apk --update add \
   e2fsprogs \
   docker \
   py-pip \
+  openssh-client \
   && chmod +x /usr/local/bin/wrapdocker \
   && rm -rf /var/cache/apk/*
 
